@@ -1,0 +1,21 @@
+{
+  "title": "John Tregoning",
+  "subtitle": "Software Engineer at Netflix creating products for Analytics, Telemetry, Data Science and Studio.",
+  "url": "https://jt.io/",
+  "description": "John Tregoning's Blog",
+  "feed": {
+    "subtitle": "John Tregoning's Blog",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://jt.io/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://jt.io/feed/feed.json"
+  },
+  "author": {
+    "name": "John Tregoning",
+    "email": "hello@jt.io",
+    "url": "https://jt.io/about-me/"
+  }
+}

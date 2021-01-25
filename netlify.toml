@@ -1,0 +1,4 @@
+# @see https://docs.netlify.com/configure-builds/file-based-configuration/
+[build]
+  publish = "_site"
+  command = "DEBUG=* eleventy"

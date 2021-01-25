@@ -1,0 +1,24 @@
+---
+layout: base.njk
+templateClass: is-post
+---
+<header>
+    <h1>{{ title }}</h1>
+    {% if date %}
+    <time datetime="{{ date | machineReadableDate }}">
+        <img class="is-icon" src="/svg/calendar.svg" alt="calendar icon"/>
+        {{ date | readableDate }}
+    </time>
+    {% endif %}
+    {% if tags %}
+    <div class="tags">
+        <img class="is-icon" src="/svg/tag.svg" alt="tags icon"/>
+        {% for tag in tags %}
+            {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+            <a href="{{ tagUrl | url }}">{{ tag }}</a>
+        {% endfor %}
+    </div>
+    {% endif %}
+
+</header>
+{{ content | safe }}

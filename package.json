@@ -1,0 +1,26 @@
+{
+    "name": "john-tregoning-blog-generator",
+    "version": "5.0.2",
+    "description": "John Tregoning's blog static site generator.",
+    "scripts": {
+        "build": "eleventy",
+        "watch": "eleventy --watch",
+        "serve": "eleventy --serve",
+        "start": "eleventy --serve",
+        "debug": "DEBUG=* eleventy"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.11.1",
+        "@11ty/eleventy-navigation": "^0.1.6",
+        "@11ty/eleventy-plugin-rss": "^1.0.9",
+        "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.4",
+        "@11ty/eleventy-img": "^0.6.0",
+        "luxon": "^1.21.3",
+        "markdown-it": "^8.4.2",
+        "markdown-it-anchor": "^5.2.5",
+        "markdown-it-implicit-figures": "^0.10.0",
+        "markdown-it-imsize": "^2.0.1",
+        "html-minifier": "^4.0.0"
+    }
+}

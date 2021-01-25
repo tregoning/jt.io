@@ -1,0 +1,14 @@
+---
+layout: base.njk
+templateClass: is-home
+---
+
+<header>
+    {% if isHome %}
+    <span id="me"></span>
+    <h1>{{ metadata.title }}</h1>
+    <h2>{{ metadata.subtitle }}</h2>
+    {% endif %}
+</header>
+
+{{ content | safe }}
